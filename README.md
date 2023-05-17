@@ -1,6 +1,6 @@
 # Socket
 
-## **USC EE450 Socket Programming Projects**
+## **USC SP23 EE450 Socket Programming Projects**
 
 **Instructor: Prof. Cauligi Raghavendra | TA: Pengmiao Zhang**
 
