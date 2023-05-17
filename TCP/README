@@ -1,0 +1,37 @@
+1) Full Name: YL
+
+
+2) Student ID: xxx
+
+
+3) Platform (Ubuntu version): 32-bit XUbuntu 16.04.7
+
+
+4) What I have done in the assignment:
+In this assignment, I wrote two .cpp files to establish a client-server socket model on TCP that can realiaze the Student Performance Analysis system required by the assignment, as well as a makefile. Client and server-end skeleton code was given by reference material: https://beej.us/guide/bgnet/html, which is a simple client-server model in which server sends a hardcoded string to the client over the stream connection. On top of that I first designed a series of functions to realize server-end information storage and retrieval, then added a receive function to the server end, and a send function to the client end. Furthermore, an additonal while loop was added to the client and server code respectively to realize contiuous operations on message exchanging. Finally, several helper functions such as message printing were designed to help maintain code readability.
+
+
+5) What my code files are and what each one of them does:
+(1) - servermain.cpp: establishes a server-end socket that can continuously listen, accept, receive and send message over the stream connection.
+
+(2) - client.cpp: establishes a client-end socket that after stream connection setup, can repeatedly ask for user input, send inquries to the server, receive reply from the server and print the message received.
+
+(3) - makefile: makefile to compile the program.
+
+
+6) The format of all the messages exchanged:
+In terms of code implementation, messages were defined in the format of char, which was defined in ASICII. (During the sending/receiving process, the ASICII is converted to binary, and eventually to analog signals for physical transmission.)
+
+
+7) Any idiosyncrasy of your project (It should say under what conditions the project fails, if any):
+(1) My code follows all the assumptions written in the project assignment specs (page 4). Any condition other than those will trigger undefined behavior.
+(2) When you type in "make", all the files will be compiled only (program will not run). To run server program, open a new terminal and type in "./servermain". To run client program, open a new terminal and type in "./client".
+(3) When you type in "make servermain", servermain will be compiles, but will NOT automatically run until you type in ./servermain. Same for "make client".
+(4) Please notice that since "list.txt" was hardcoded to the servermain program, you should always make sure a "list.txt" which follows the rules defined in the project asssignment specs exists in the same folder of the code file. Otherwise program will fail to work as expected.
+(5) The assumption is that users are not allowed to put any parameter or value or string or character as a commandline argument. Doing so will cause undefined behavior. (Acutually, my program simply ignores the extra input, and will run normally.)
+
+
+8) Reused Code: Did you use code from anywhere for your project? If not, say so. If so, say what functions and where they're from. (Also identify this with a comment in the source code):
+Yes. 
+1) Starter code is given by "https://beej.us/guide/bgnet/html/".
+2) For the split function (vector<string> split(string s, string delimiter) {}) in servermain.app, I referred to code @ https://stackoverflow.com/questions/14265581/parse-split-a-string-in-c-using-string-delimiter-standard-c
