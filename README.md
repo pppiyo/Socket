@@ -5,10 +5,10 @@ USC EE450 Socket Programming Projects
 Instructor: Prof. Cauligi Raghavendra
 TA        : Pengmiao Zhang
 
-Content:
+[Content]
 - TCP Socket Programming
 - UDP Socket Programming
 - TCP & UDP Socket Programming
 
-Details:
+[Details]
 See Project Assignment PDFs
