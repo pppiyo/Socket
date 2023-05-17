@@ -2,7 +2,7 @@
 
 ## **USC EE450 Socket Programming Projects**
 
-**Instructor**: Prof. Cauligi Raghavendra | **TA**: Pengmiao Zhang
+**Instructor: Prof. Cauligi Raghavendra | TA: Pengmiao Zhang**
 
 [Content]
 - TCP Socket Programming.
