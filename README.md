@@ -1,13 +1,10 @@
-# Socket
-
-## **USC SP23 EE450 Socket Programming Projects**
-
+# Socket Programming Projects (USC EE450 SP23)
 **Instructor: Prof. Cauligi Raghavendra | TA: Pengmiao Zhang**
 
-[Content]
+## Content
 - TCP Socket Programming.
 - UDP Socket Programming.
 - TCP & UDP Socket Programming.
 
-[Details]<br>
+## Details
 - See Project Assignment PDFs.
