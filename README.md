@@ -7,4 +7,4 @@
 - TCP & UDP Socket Programming.
 
 ## Details
-- See Project Assignment PDFs.
+- See Project Assignment PDFs located in each folder.
